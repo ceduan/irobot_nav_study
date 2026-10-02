@@ -7,3 +7,6 @@ message(STATUS "OpenCV Version: ${OpenCV_VERSION}")
 add_executable(demo test_opencv.cpp)
 # 链接OpenCV库
 target_link_libraries(demo ${OpenCV_LIBS})
+
+add_executable(edge_detect edge_detect.cpp)
+target_link_libraries(edge_detect ${OpenCV_LIBS})
