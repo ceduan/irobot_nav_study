@@ -1,0 +1,15 @@
+# 编译构建目录
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# 图片文件
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# 临时文件
+*~
