@@ -11,11 +11,17 @@ int main()
         return -1;
     }
     cv::Mat dst;
-    // 调用刚才写好的灰度函数
+    // 调用灰度函数
     to_gray(src, dst);
 
     cv::imshow("原图", src);
     cv::imshow("灰度图", dst);
+
+    // ==========新增：条件编译，控制图片保存==========
+#ifdef SAVE_OUTPUT_IMAGE
+    cv::imwrite("../res/gray_out.jpg", dst);
+#endif
+
     cv::waitKey(0);
     return 0;
 }
