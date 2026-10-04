@@ -19,3 +19,12 @@ IRobot算法组 导航方向 ROS2速度安全保护模块
 colcon build --packages-select cmd_vel_guard
 source install/setup.bash
 ros2 launch cmd_vel_guard robot_guard.launch.py
+```
+
+## 演示视频
+cmd_vel_guard节点功能演示：cmd_vel_guard_ros2_demo.mp4
+
+## 运行截图
+- rqt_graph拓扑图：assets/rqt_graph.png
+- 正常速度测试日志：assets/normal_speed.png
+- 超速保护测试日志：assets/over_speed.png
