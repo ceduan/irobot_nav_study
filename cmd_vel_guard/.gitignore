@@ -1,0 +1,14 @@
+# 忽略所有png图片
+*.png
+# 例外：assets文件夹内png允许提交
+!assets/*.png
+
+# ROS2编译产物
+build/
+install/
+log/
+
+# 临时文件
+*.swp
+*.swo
+*~
