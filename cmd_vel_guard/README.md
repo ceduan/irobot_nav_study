@@ -22,7 +22,8 @@ ros2 launch cmd_vel_guard robot_guard.launch.py
 ```
 
 ## 演示视频
-cmd_vel_guard节点功能演示：cmd_vel_guard_ros2_demo.mp4
+[ROS2速度保护节点演示录屏 cmd_vel_guard_ros2_demo.mp4](./cmd_vel_guard_ros2_demo.mp4)
+> 点击链接，下载视频到本地后播放
 
 ## 运行截图
 - rqt_graph拓扑图：assets/rqt_graph.png
